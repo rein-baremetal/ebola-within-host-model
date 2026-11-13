@@ -1,0 +1,19 @@
+# screen.txt - TIP-profile search space and search control
+# Format for a dimension:  name = min max [log]      (any name from input.txt can be swept)
+beta_T   = 2.5e-7 2e-6 log
+alpha    = 0.05 0.4
+p_T      = 500 3000
+c_T      = 0.1 15 log
+tip_dose = 1e5 1e9 log
+tip_time = 0 5
+
+# search control
+samples    = 2000     # Latin-hypercube profiles
+seed       = 12345    # fixed seed: identical results every run and for any thread count
+refine_top = 3        # Nelder-Mead refinement of the best N sampled profiles
+nm_iters   = 80
+top_k      = 10       # rows in the ranked table
+threads    = 0        # 0 = all hardware threads
+weight_factor = 2     # weight-sensitivity scaling (x and 1/x)
+w_ext      = 5        # smooth penalty on final V_W above V_ext (non-extinction)
+prefix     = screen   # output files: screen_report.txt, screen_samples.csv, screen_pareto.svg, screen_best.svg

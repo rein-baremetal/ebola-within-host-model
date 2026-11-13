@@ -1,0 +1,4 @@
+# Python dependencies for the figure scripts (the C++ engine has none).
+# System packages also needed for figures: librsvg2-bin (rsvg-convert) and fonts-dejavu-core.
+numpy
+pillow

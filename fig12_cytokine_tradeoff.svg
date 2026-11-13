@@ -1,0 +1,99 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='880' height='560' viewBox='0 0 880 560' font-family='Arial,Helvetica,sans-serif' xml:space='preserve'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='14.0' y='30.0' font-size='21' text-anchor='start' font-weight='bold' fill='#111'><tspan>Trade-off between persistence threshold and peak cytokine</tspan></text>
+<text x='104.0' y='68.0' font-size='17' text-anchor='start' font-weight='bold' fill='#1a1a1a'><tspan>Innate stimulation of cytokine by free TIP</tspan></text>
+<rect x='104' y='82' width='614' height='328' fill='#fafafa'/>
+<line x1='104.0' y1='82.0' x2='104.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='104.0' y1='410.0' x2='104.0' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='104.0' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0000</tspan></text>
+<line x1='206.3' y1='82.0' x2='206.3' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='206.3' y1='410.0' x2='206.3' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='206.3' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0005</tspan></text>
+<line x1='308.7' y1='82.0' x2='308.7' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='308.7' y1='410.0' x2='308.7' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='308.7' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0010</tspan></text>
+<line x1='411.0' y1='82.0' x2='411.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='411.0' y1='410.0' x2='411.0' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='411.0' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0015</tspan></text>
+<line x1='513.3' y1='82.0' x2='513.3' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='513.3' y1='410.0' x2='513.3' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='513.3' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0020</tspan></text>
+<line x1='615.7' y1='82.0' x2='615.7' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='615.7' y1='410.0' x2='615.7' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='615.7' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0025</tspan></text>
+<line x1='718.0' y1='82.0' x2='718.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='718.0' y1='410.0' x2='718.0' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='718.0' y='431.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0.0030</tspan></text>
+<line x1='104.0' y1='410.0' x2='718.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='410.0' x2='104.0' y2='410.0' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='414.5' font-size='13' text-anchor='end' fill='#333'><tspan>0.0</tspan></text>
+<line x1='104.0' y1='344.4' x2='718.0' y2='344.4' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='344.4' x2='104.0' y2='344.4' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='348.9' font-size='13' text-anchor='end' fill='#333'><tspan>0.1</tspan></text>
+<line x1='104.0' y1='278.8' x2='718.0' y2='278.8' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='278.8' x2='104.0' y2='278.8' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='283.3' font-size='13' text-anchor='end' fill='#333'><tspan>0.2</tspan></text>
+<line x1='104.0' y1='213.2' x2='718.0' y2='213.2' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='213.2' x2='104.0' y2='213.2' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='217.7' font-size='13' text-anchor='end' fill='#333'><tspan>0.3</tspan></text>
+<line x1='104.0' y1='147.6' x2='718.0' y2='147.6' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='147.6' x2='104.0' y2='147.6' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='152.1' font-size='13' text-anchor='end' fill='#333'><tspan>0.4</tspan></text>
+<line x1='104.0' y1='82.0' x2='718.0' y2='82.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='82.0' x2='104.0' y2='82.0' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='86.5' font-size='13' text-anchor='end' fill='#333'><tspan>0.5</tspan></text>
+<line x1='104.0' y1='410.0' x2='718.0' y2='410.0' stroke='#222' stroke-width='1.6'/>
+<line x1='104.0' y1='82.0' x2='104.0' y2='410.0' stroke='#222' stroke-width='1.6'/>
+<text x='411.0' y='454.0' font-size='16' text-anchor='middle' fill='#333'><tspan>TIP innate stimulation </tspan><tspan font-style='italic'>ρ</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'> (pg mL</tspan><tspan font-size='75%' dy='-6.08'>−1</tspan><tspan dy='6.08'> d</tspan><tspan font-size='75%' dy='-6.08'>−1</tspan><tspan dy='6.08'> per copy mL</tspan><tspan font-size='75%' dy='-6.08'>−1</tspan><tspan dy='6.08'>)</tspan></text>
+<text x='26.0' y='251.0' font-size='16' text-anchor='middle' fill='#333' transform='rotate(-90 26.0 251.0)'><tspan>threshold </tspan><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan font-size='75%' dy='-9.60'>*</tspan><tspan dy='6.08'> (d</tspan><tspan font-size='75%' dy='-6.08'>−1</tspan><tspan dy='6.08'>)</tspan></text>
+<polyline fill='none' stroke='#185FA5' stroke-width='2.4' stroke-linejoin='round' points='104.0,242.0 155.2,186.5 206.3,177.8 257.5,173.6 308.7,171.1 359.8,169.5 411.0,168.4 462.2,167.6 513.3,166.9 564.5,166.4 615.7,166.0 666.8,165.6 718.0,165.3'/>
+<circle cx='104.0' cy='242.0' r='3.8' fill='#185FA5'/>
+<circle cx='155.2' cy='186.5' r='3.8' fill='#185FA5'/>
+<circle cx='206.3' cy='177.8' r='3.8' fill='#185FA5'/>
+<circle cx='257.5' cy='173.6' r='3.8' fill='#185FA5'/>
+<circle cx='308.7' cy='171.1' r='3.8' fill='#185FA5'/>
+<circle cx='359.8' cy='169.5' r='3.8' fill='#185FA5'/>
+<circle cx='411.0' cy='168.4' r='3.8' fill='#185FA5'/>
+<circle cx='462.2' cy='167.6' r='3.8' fill='#185FA5'/>
+<circle cx='513.3' cy='166.9' r='3.8' fill='#185FA5'/>
+<circle cx='564.5' cy='166.4' r='3.8' fill='#185FA5'/>
+<circle cx='615.7' cy='166.0' r='3.8' fill='#185FA5'/>
+<circle cx='666.8' cy='165.6' r='3.8' fill='#185FA5'/>
+<circle cx='718.0' cy='165.3' r='3.8' fill='#185FA5'/>
+<line x1='718.0' y1='82.0' x2='718.0' y2='410.0' stroke='#A32D2D' stroke-width='1.6'/>
+<line x1='718.0' y1='410.0' x2='723.0' y2='410.0' stroke='#A32D2D' stroke-width='1.2'/>
+<text x='727.0' y='414.5' font-size='13' text-anchor='start' fill='#A32D2D'>10<tspan dy='-4.94' font-size='75%'>0</tspan><tspan dy='4.94'></tspan></text>
+<line x1='718.0' y1='344.4' x2='723.0' y2='344.4' stroke='#A32D2D' stroke-width='1.2'/>
+<text x='727.0' y='348.9' font-size='13' text-anchor='start' fill='#A32D2D'>10<tspan dy='-4.94' font-size='75%'>1</tspan><tspan dy='4.94'></tspan></text>
+<line x1='718.0' y1='278.8' x2='723.0' y2='278.8' stroke='#A32D2D' stroke-width='1.2'/>
+<text x='727.0' y='283.3' font-size='13' text-anchor='start' fill='#A32D2D'>10<tspan dy='-4.94' font-size='75%'>2</tspan><tspan dy='4.94'></tspan></text>
+<line x1='718.0' y1='213.2' x2='723.0' y2='213.2' stroke='#A32D2D' stroke-width='1.2'/>
+<text x='727.0' y='217.7' font-size='13' text-anchor='start' fill='#A32D2D'>10<tspan dy='-4.94' font-size='75%'>3</tspan><tspan dy='4.94'></tspan></text>
+<line x1='718.0' y1='147.6' x2='723.0' y2='147.6' stroke='#A32D2D' stroke-width='1.2'/>
+<text x='727.0' y='152.1' font-size='13' text-anchor='start' fill='#A32D2D'>10<tspan dy='-4.94' font-size='75%'>4</tspan><tspan dy='4.94'></tspan></text>
+<line x1='718.0' y1='82.0' x2='723.0' y2='82.0' stroke='#A32D2D' stroke-width='1.2'/>
+<text x='727.0' y='86.5' font-size='13' text-anchor='start' fill='#A32D2D'>10<tspan dy='-4.94' font-size='75%'>5</tspan><tspan dy='4.94'></tspan></text>
+<text x='836.0' y='251.0' font-size='16' text-anchor='middle' fill='#A32D2D' transform='rotate(-90 836.0 251.0)'><tspan>peak cytokine at the threshold (pg/mL)</tspan></text>
+<polyline fill='none' stroke='#A32D2D' stroke-width='2.4' stroke-linejoin='round' points='104.0,364.1 155.2,203.1 206.3,183.5 257.5,172.1 308.7,163.9 359.8,157.6 411.0,152.4 462.2,148.0 513.3,144.2 564.5,140.9 615.7,137.9 666.8,135.2 718.0,132.7'/>
+<circle cx='104.0' cy='364.1' r='3.8' fill='#A32D2D'/>
+<circle cx='155.2' cy='203.1' r='3.8' fill='#A32D2D'/>
+<circle cx='206.3' cy='183.5' r='3.8' fill='#A32D2D'/>
+<circle cx='257.5' cy='172.1' r='3.8' fill='#A32D2D'/>
+<circle cx='308.7' cy='163.9' r='3.8' fill='#A32D2D'/>
+<circle cx='359.8' cy='157.6' r='3.8' fill='#A32D2D'/>
+<circle cx='411.0' cy='152.4' r='3.8' fill='#A32D2D'/>
+<circle cx='462.2' cy='148.0' r='3.8' fill='#A32D2D'/>
+<circle cx='513.3' cy='144.2' r='3.8' fill='#A32D2D'/>
+<circle cx='564.5' cy='140.9' r='3.8' fill='#A32D2D'/>
+<circle cx='615.7' cy='137.9' r='3.8' fill='#A32D2D'/>
+<circle cx='666.8' cy='135.2' r='3.8' fill='#A32D2D'/>
+<circle cx='718.0' cy='132.7' r='3.8' fill='#A32D2D'/>
+<line x1='104.0' y1='232.9' x2='718.0' y2='232.9' stroke='#A32D2D' stroke-width='1.5' stroke-dasharray='2 4'/>
+<text x='710.0' y='254.9' font-size='13' text-anchor='end' fill='#A32D2D'><tspan font-style='italic'>C</tspan><tspan font-size='75%' dy='2.86'>crit</tspan><tspan dy='-2.86'> = 500 pg/mL</tspan></text>
+<line x1='14.0' y1='500.0' x2='38.0' y2='500.0' stroke='#185FA5' stroke-width='2.4'/>
+<text x='44.0' y='505.0' font-size='14' text-anchor='start' fill='#222'><tspan>threshold </tspan><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.08'>T</tspan><tspan font-size='75%' dy='-8.40'>*</tspan><tspan dy='5.32'> (left axis)</tspan></text>
+<line x1='230.3' y1='500.0' x2='254.3' y2='500.0' stroke='#A32D2D' stroke-width='2.4'/>
+<text x='260.3' y='505.0' font-size='14' text-anchor='start' fill='#222'><tspan>peak cytokine at the threshold (right axis)</tspan></text>
+<line x1='581.5' y1='500.0' x2='605.5' y2='500.0' stroke='#A32D2D' stroke-width='2.4' stroke-dasharray='2 4'/>
+<text x='611.5' y='505.0' font-size='14' text-anchor='start' fill='#222'><tspan>cytokine bound</tspan></text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='880' height='560' viewBox='0 0 880 560' font-family='Arial,Helvetica,sans-serif' xml:space='preserve'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='14.0' y='30.0' font-size='21' text-anchor='start' font-weight='bold' fill='#111'><tspan>Extinction probability in the stochastic tail</tspan></text>
+<text x='104.0' y='68.0' font-size='17' text-anchor='start' font-weight='bold' fill='#1a1a1a'><tspan>(a) 200 replicates per point</tspan></text>
+<rect x='104' y='82' width='694' height='328' fill='#fafafa'/>
+<line x1='104.0' y1='82.0' x2='104.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='104.0' y1='410.0' x2='104.0' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='104.0' y='431.0' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>−1</tspan><tspan dy='4.94'></tspan></text>
+<line x1='798.0' y1='82.0' x2='798.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='798.0' y1='410.0' x2='798.0' y2='415.0' stroke='#444' stroke-width='1.2'/>
+<text x='798.0' y='431.0' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>0</tspan><tspan dy='4.94'></tspan></text>
+<line x1='104.0' y1='410.0' x2='798.0' y2='410.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='410.0' x2='104.0' y2='410.0' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='414.5' font-size='13' text-anchor='end' fill='#333'><tspan>0.0</tspan></text>
+<line x1='104.0' y1='344.4' x2='798.0' y2='344.4' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='344.4' x2='104.0' y2='344.4' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='348.9' font-size='13' text-anchor='end' fill='#333'><tspan>0.2</tspan></text>
+<line x1='104.0' y1='278.8' x2='798.0' y2='278.8' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='278.8' x2='104.0' y2='278.8' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='283.3' font-size='13' text-anchor='end' fill='#333'><tspan>0.4</tspan></text>
+<line x1='104.0' y1='213.2' x2='798.0' y2='213.2' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='213.2' x2='104.0' y2='213.2' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='217.7' font-size='13' text-anchor='end' fill='#333'><tspan>0.6</tspan></text>
+<line x1='104.0' y1='147.6' x2='798.0' y2='147.6' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='147.6' x2='104.0' y2='147.6' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='152.1' font-size='13' text-anchor='end' fill='#333'><tspan>0.8</tspan></text>
+<line x1='104.0' y1='82.0' x2='798.0' y2='82.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='99.0' y1='82.0' x2='104.0' y2='82.0' stroke='#444' stroke-width='1.2'/>
+<text x='95.0' y='86.5' font-size='13' text-anchor='end' fill='#333'><tspan>1.0</tspan></text>
+<line x1='104.0' y1='410.0' x2='798.0' y2='410.0' stroke='#222' stroke-width='1.6'/>
+<line x1='104.0' y1='82.0' x2='104.0' y2='410.0' stroke='#222' stroke-width='1.6'/>
+<text x='451.0' y='454.0' font-size='16' text-anchor='middle' fill='#333'><tspan>free-TIP clearance </tspan><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'> (d</tspan><tspan font-size='75%' dy='-6.08'>−1</tspan><tspan dy='6.08'>)</tspan></text>
+<text x='26.0' y='251.0' font-size='16' text-anchor='middle' fill='#333' transform='rotate(-90 26.0 251.0)'><tspan>probability of WT extinction</tspan></text>
+<line x1='387.3' y1='82.0' x2='387.3' y2='410.0' stroke='#A32D2D' stroke-width='1.5' stroke-dasharray='6 4'/>
+<polyline fill='none' stroke='#6B6B6B' stroke-width='1.8' stroke-linejoin='round' stroke-dasharray='8 5' points='104.0,82.0 387.3,82.0 387.3,410.0 798.0,410.0'/>
+<polyline fill='none' stroke='#185FA5' stroke-width='2.4' stroke-linejoin='round' points='104.0,82.0 312.9,82.0 380.2,83.6 392.0,85.3 414.3,93.5 435.1,101.7 481.6,142.7 521.8,237.8 589.1,393.6 690.5,410.0 798.0,410.0'/>
+<circle cx='104.0' cy='82.0' r='3.8' fill='#185FA5'/>
+<circle cx='312.9' cy='82.0' r='3.8' fill='#185FA5'/>
+<circle cx='380.2' cy='83.6' r='3.8' fill='#185FA5'/>
+<circle cx='392.0' cy='85.3' r='3.8' fill='#185FA5'/>
+<circle cx='414.3' cy='93.5' r='3.8' fill='#185FA5'/>
+<circle cx='435.1' cy='101.7' r='3.8' fill='#185FA5'/>
+<circle cx='481.6' cy='142.7' r='3.8' fill='#185FA5'/>
+<circle cx='521.8' cy='237.8' r='3.8' fill='#185FA5'/>
+<circle cx='589.1' cy='393.6' r='3.8' fill='#185FA5'/>
+<circle cx='690.5' cy='410.0' r='3.8' fill='#185FA5'/>
+<circle cx='798.0' cy='410.0' r='3.8' fill='#185FA5'/>
+<line x1='104.0' y1='82.0' x2='104.0' y2='88.2' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='312.9' y1='82.0' x2='312.9' y2='88.2' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='380.2' y1='82.3' x2='380.2' y2='91.1' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='392.0' y1='82.9' x2='392.0' y2='93.7' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='414.3' y1='87.6' x2='414.3' y2='105.1' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='435.1' y1='93.4' x2='435.1' y2='115.4' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='481.6' y1='127.0' x2='481.6' y2='162.2' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='521.8' y1='215.5' x2='521.8' y2='260.4' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='589.1' y1='380.6' x2='589.1' y2='401.0' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='690.5' y1='403.8' x2='690.5' y2='410.0' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='798.0' y1='403.8' x2='798.0' y2='410.0' stroke='#185FA5' stroke-width='1.6'/>
+<line x1='14.0' y1='500.0' x2='38.0' y2='500.0' stroke='#185FA5' stroke-width='2.4'/>
+<text x='44.0' y='505.0' font-size='14' text-anchor='start' fill='#222'><tspan>stochastic tail (95% Wilson interval)</tspan></text>
+<line x1='322.0' y1='500.0' x2='346.0' y2='500.0' stroke='#6B6B6B' stroke-width='2.4' stroke-dasharray='8 5'/>
+<text x='352.0' y='505.0' font-size='14' text-anchor='start' fill='#222'><tspan>deterministic outcome</tspan></text>
+<line x1='535.6' y1='500.0' x2='559.6' y2='500.0' stroke='#A32D2D' stroke-width='2.4' stroke-dasharray='6 4'/>
+<text x='565.6' y='505.0' font-size='14' text-anchor='start' fill='#222'><tspan>deterministic threshold </tspan><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.08'>T</tspan><tspan font-size='75%' dy='-8.40'>*</tspan><tspan dy='5.32'> = 0.256 d</tspan><tspan font-size='75%' dy='-5.32'>−1</tspan><tspan dy='5.32'></tspan></text>
+</svg>

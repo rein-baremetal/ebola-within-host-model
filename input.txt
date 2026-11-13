@@ -1,0 +1,88 @@
+# input.txt - EBOV-TIP engine parameters (name = value). '#' starts a comment.
+# All values are ILLUSTRATIVE placeholders until the Phase-1 provenance register is complete.
+# Units: cells/mL, virions/mL, time in days.
+
+# --- cellular scale ---
+lambda   = 5e4
+d_T      = 0.07
+beta_W   = 5e-7
+beta_T   = 5e-7
+k_W      = 6
+k_Co     = 6
+delta_W  = 2
+delta_Co = 2
+p_W      = 500
+p_T      = 1500
+alpha    = 0.2
+c_W      = 10
+c_T      = 10
+delta_N  = 0.5
+K_F      = 50
+eps_Ab   = 0
+eps_Clr  = 0
+kappa    = 1
+
+# --- cytokine and autonomic ---
+C_rest   = 5
+d_C      = 5
+gamma    = 3
+K_C      = 50
+rho_I    = 0.005
+rho_V    = 1e-6
+sigma_v  = 0.5
+H_0      = 70
+H_max    = 130
+Delta_H  = 50
+K_H      = 100
+n_hill   = 2
+tau_H    = 0.02
+
+# --- objective and safety bounds ---
+w1 = 1
+w2 = 1
+w3 = 1
+w4 = 1e-6
+C_crit = 500
+H_crit = 130
+V_ext  = 2e-4
+ext_floor = 1      # 1 = WT set to zero once < 1 virion and < 1 infected cell per host (stochastic-extinction proxy); 0 = pure ODE
+
+# --- run control (set tip_dose = 0 for the untreated baseline) ---
+V_W0     = 100
+tip_dose = 1e7
+tip_time = 2
+t_end    = 30
+h        = 0.005
+dt_out   = 0.25
+
+# --- model extensions (v2) ---
+primed = 1    # 1 = TIP-only "primed" cells are tracked and can be superinfected by WT; 0 = abortive-entry variant
+rho_T  = 0    # cytokine synthesis stimulated by free TIP (pg/mL/d per copy/mL); 0 = no TIP innate stimulation
+
+# --- advanced extensions (theoretical; not yet active in core engine state vector) ---
+# Multi-stage entry
+# phi_variant = 1.0     # glycoprotein fusion multiplier (≥1)
+# k_c         = 10.0    # cathepsin cleavage rate (day-1) – illustrative
+# k_f0        = 6.0     # baseline fusion priming (day-1)
+# d_B         = 0.1     # bound/endosomal cell loss rate
+
+# Host-targeted drug (Hill)
+# IC50        = 51.7    # μM (illustrative, laudanosine-class)
+# h_drug      = 1.0     # Hill coefficient
+# D_drug      = 0.0     # current drug concentration (μM); 0 = off
+
+# Condensate / ISG
+# pi_ifn      = 0.0     # interferon protection of primed cells [0,1]
+# g_cond      = 0.0     # condensate-driven cytokine gain
+
+# Counter-regulatory arm R
+# K_R         = 50.0    # suppression constant
+# sigma_R     = 1.0     # production rate of R
+# d_R         = 1.0     # clearance of R
+# K_sigma     = 50.0
+
+# Latent reservoir
+# v_lat       = 0.0     # latency seeding rate
+# eta_react   = 0.01    # reactivation rate
+# d_L         = 0.05    # latent death rate
+# L_ext       = 1e-6    # sterilising extinction threshold

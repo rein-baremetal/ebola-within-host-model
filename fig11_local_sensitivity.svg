@@ -1,0 +1,76 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='660' viewBox='0 0 1000 660' font-family='Arial,Helvetica,sans-serif' xml:space='preserve'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='14.0' y='30.0' font-size='21' text-anchor='start' font-weight='bold' fill='#111'><tspan>Local sensitivity of the persistence threshold (baseline c</tspan><tspan font-size='75%' dy='4.62'>T</tspan><tspan font-size='75%' dy='-12.60'>*</tspan><tspan dy='7.98'> = 0.256 d</tspan><tspan font-size='75%' dy='-7.98'>−1</tspan><tspan dy='7.98'>)</tspan></text>
+<rect x='250' y='60' width='710' height='510' fill='#fafafa'/>
+<line x1='250.0' y1='60.0' x2='250.0' y2='570.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='250.0' y1='570.0' x2='250.0' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='250.0' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>−60</tspan></text>
+<line x1='368.3' y1='60.0' x2='368.3' y2='570.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='368.3' y1='570.0' x2='368.3' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='368.3' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>−40</tspan></text>
+<line x1='486.7' y1='60.0' x2='486.7' y2='570.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='486.7' y1='570.0' x2='486.7' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='486.7' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>−20</tspan></text>
+<line x1='605.0' y1='60.0' x2='605.0' y2='570.0' stroke='#555' stroke-width='1.6'/>
+<line x1='605.0' y1='570.0' x2='605.0' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='605.0' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>0</tspan></text>
+<line x1='723.3' y1='60.0' x2='723.3' y2='570.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='723.3' y1='570.0' x2='723.3' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='723.3' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>+20</tspan></text>
+<line x1='841.7' y1='60.0' x2='841.7' y2='570.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='841.7' y1='570.0' x2='841.7' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='841.7' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>+40</tspan></text>
+<line x1='960.0' y1='60.0' x2='960.0' y2='570.0' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='960.0' y1='570.0' x2='960.0' y2='575.0' stroke='#444' stroke-width='1.2'/>
+<text x='960.0' y='591.0' font-size='13' text-anchor='middle' fill='#333'><tspan>+60</tspan></text>
+<text x='236.0' y='82.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>δ</tspan><tspan font-size='75%' dy='3.08'>W</tspan><tspan dy='-3.08'> = </tspan><tspan font-style='italic'>δ</tspan><tspan font-size='75%' dy='3.08'>Co</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='317.9' y='65.0' width='287.1' height='11' fill='#185FA5'/>
+<rect x='605.0' y='77.0' width='315.5' height='11' fill='#D85A30'/>
+<text x='236.0' y='116.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>p</tspan><tspan font-size='75%' dy='3.08'>W</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='605.0' y='99.0' width='281.7' height='11' fill='#185FA5'/>
+<rect x='411.5' y='111.0' width='193.5' height='11' fill='#D85A30'/>
+<text x='236.0' y='150.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>λ</tspan></text>
+<rect x='605.0' y='133.0' width='281.6' height='11' fill='#185FA5'/>
+<rect x='411.6' y='145.0' width='193.4' height='11' fill='#D85A30'/>
+<text x='236.0' y='184.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.08'>W</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='605.0' y='167.0' width='281.6' height='11' fill='#185FA5'/>
+<rect x='411.6' y='179.0' width='193.4' height='11' fill='#D85A30'/>
+<text x='236.0' y='218.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.08'>W</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='342.8' y='201.0' width='262.2' height='11' fill='#185FA5'/>
+<rect x='605.0' y='213.0' width='242.6' height='11' fill='#D85A30'/>
+<text x='236.0' y='252.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>d</tspan><tspan font-size='75%' dy='3.08'>T</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='381.7' y='235.0' width='223.3' height='11' fill='#185FA5'/>
+<rect x='605.0' y='247.0' width='172.9' height='11' fill='#D85A30'/>
+<text x='236.0' y='286.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>α</tspan></text>
+<rect x='605.0' y='269.0' width='200.0' height='11' fill='#185FA5'/>
+<rect x='440.6' y='281.0' width='164.4' height='11' fill='#D85A30'/>
+<text x='236.0' y='320.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.08'>T</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='548.7' y='303.0' width='56.3' height='11' fill='#185FA5'/>
+<rect x='605.0' y='315.0' width='43.4' height='11' fill='#D85A30'/>
+<text x='236.0' y='354.0' font-size='14' text-anchor='end' fill='#111'><tspan>TIP dose</tspan></text>
+<rect x='548.7' y='337.0' width='56.3' height='11' fill='#185FA5'/>
+<rect x='605.0' y='349.0' width='43.3' height='11' fill='#D85A30'/>
+<text x='236.0' y='388.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>k</tspan><tspan font-size='75%' dy='3.08'>W</tspan><tspan dy='-3.08'> = </tspan><tspan font-style='italic'>k</tspan><tspan font-size='75%' dy='3.08'>Co</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='586.6' y='371.0' width='18.4' height='11' fill='#185FA5'/>
+<rect x='605.0' y='383.0' width='9.7' height='11' fill='#D85A30'/>
+<text x='236.0' y='422.0' font-size='14' text-anchor='end' fill='#111'><tspan>dosing time</tspan></text>
+<rect x='605.0' y='405.0' width='16.3' height='11' fill='#185FA5'/>
+<rect x='589.2' y='417.0' width='15.8' height='11' fill='#D85A30'/>
+<text x='236.0' y='456.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.08'>W</tspan><tspan dy='-3.08'>(0)</tspan></text>
+<rect x='605.0' y='439.0' width='15.5' height='11' fill='#185FA5'/>
+<rect x='593.5' y='451.0' width='11.5' height='11' fill='#D85A30'/>
+<text x='236.0' y='490.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>K</tspan><tspan font-size='75%' dy='3.08'>F</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='605.0' y='473.0' width='8.1' height='11' fill='#185FA5'/>
+<rect x='599.9' y='485.0' width='5.1' height='11' fill='#D85A30'/>
+<text x='236.0' y='524.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>δ</tspan><tspan font-size='75%' dy='3.08'>N</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='598.2' y='507.0' width='6.8' height='11' fill='#185FA5'/>
+<rect x='605.0' y='519.0' width='6.9' height='11' fill='#D85A30'/>
+<text x='236.0' y='558.0' font-size='14' text-anchor='end' fill='#111'><tspan font-style='italic'>p</tspan><tspan font-size='75%' dy='3.08'>T</tspan><tspan dy='-3.08'></tspan></text>
+<rect x='605.0' y='541.0' width='0.0' height='11' fill='#185FA5'/>
+<rect x='605.0' y='553.0' width='0.0' height='11' fill='#D85A30'/>
+<text x='605.0' y='618.0' font-size='16' text-anchor='middle' fill='#333'><tspan>change in </tspan><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan font-size='75%' dy='-9.60'>*</tspan><tspan dy='6.08'> (%)</tspan></text>
+<rect x='250' y='639' width='24' height='14' fill='#185FA5' fill-opacity='0.55' stroke='#777' stroke-width='0.8'/>
+<text x='280.0' y='651.0' font-size='14' text-anchor='start' fill='#222'><tspan>parameter −25%</tspan></text>
+<rect x='427.1875' y='639' width='24' height='14' fill='#D85A30' fill-opacity='0.55' stroke='#777' stroke-width='0.8'/>
+<text x='457.2' y='651.0' font-size='14' text-anchor='start' fill='#222'><tspan>parameter +25%</tspan></text>
+</svg>

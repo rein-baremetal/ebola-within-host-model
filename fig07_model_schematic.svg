@@ -1,0 +1,124 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1740' height='812' viewBox='0 0 1740 812' font-family='Arial,Helvetica,sans-serif' xml:space='preserve'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='14.0' y='32.0' font-size='21' text-anchor='start' font-weight='bold' fill='#111'><tspan>Structure of the extended RPT-EBOV model</tspan></text>
+<rect x='40' y='52' width='1670' height='316' fill='none' stroke='#9a9a9a' stroke-width='1.2'/>
+<text x='54.0' y='80.0' font-size='16' text-anchor='start' font-weight='bold' fill='#111'><tspan>Infection and TIP dynamics (core)</tspan></text>
+<rect x='110' y='100' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='240.0' y='134.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>T</tspan></text>
+<text x='240.0' y='158.0' font-size='16' text-anchor='middle' fill='#333'><tspan>target cells</tspan></text>
+<rect x='510' y='100' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='640.0' y='134.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>E</tspan><tspan font-size='75%' dy='4.18'>W</tspan><tspan dy='-4.18'></tspan></text>
+<text x='640.0' y='158.0' font-size='16' text-anchor='middle' fill='#333'><tspan>eclipse, WT-only</tspan></text>
+<rect x='910' y='100' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='1040.0' y='134.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>I</tspan><tspan font-size='75%' dy='4.18'>W</tspan><tspan dy='-4.18'></tspan></text>
+<text x='1040.0' y='158.0' font-size='16' text-anchor='middle' fill='#333'><tspan>productive, WT-only</tspan></text>
+<rect x='1310' y='100' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='1440.0' y='134.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='4.18'>W</tspan><tspan dy='-4.18'></tspan></text>
+<text x='1440.0' y='158.0' font-size='16' text-anchor='middle' fill='#333'><tspan>free WT virus</tspan></text>
+<rect x='110' y='262' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='240.0' y='296.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>P</tspan></text>
+<text x='240.0' y='320.0' font-size='16' text-anchor='middle' fill='#333'><tspan>TIP-only primed</tspan></text>
+<rect x='510' y='262' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='640.0' y='296.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>E</tspan><tspan font-size='75%' dy='4.18'>Co</tspan><tspan dy='-4.18'></tspan></text>
+<text x='640.0' y='320.0' font-size='16' text-anchor='middle' fill='#333'><tspan>eclipse, co-infected</tspan></text>
+<rect x='910' y='262' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='1040.0' y='296.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>I</tspan><tspan font-size='75%' dy='4.18'>Co</tspan><tspan dy='-4.18'></tspan></text>
+<text x='1040.0' y='320.0' font-size='16' text-anchor='middle' fill='#333'><tspan>productive, co-infected</tspan></text>
+<rect x='1310' y='262' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='1440.0' y='296.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='4.18'>T</tspan><tspan dy='-4.18'></tspan></text>
+<text x='1440.0' y='320.0' font-size='16' text-anchor='middle' fill='#333'><tspan>free TIP virus</tspan></text>
+<line x1='40.0' y1='136.0' x2='99.0' y2='136.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='110.0,136.0 99.0,141.5 99.0,130.5' fill='#000'/>
+<text x='75.0' y='124.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>λ</tspan></text>
+<line x1='370.0' y1='136.0' x2='499.0' y2='136.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='510.0,136.0 499.0,141.5 499.0,130.5' fill='#000'/>
+<text x='440.0' y='124.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'> </tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='770.0' y1='136.0' x2='899.0' y2='136.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='910.0,136.0 899.0,141.5 899.0,130.5' fill='#000'/>
+<text x='840.0' y='124.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>k</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='370.0' y1='298.0' x2='499.0' y2='298.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='510.0,298.0 499.0,303.5 499.0,292.5' fill='#000'/>
+<text x='440.0' y='286.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'> </tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='770.0' y1='298.0' x2='899.0' y2='298.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='910.0,298.0 899.0,303.5 899.0,292.5' fill='#000'/>
+<text x='840.0' y='286.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>k</tspan><tspan font-size='75%' dy='3.52'>Co</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='240.0' y1='172.0' x2='240.0' y2='251.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='240.0,262.0 234.5,251.0 245.5,251.0' fill='#000'/>
+<text x='252.0' y='222.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'> </tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='640.0' y1='172.0' x2='640.0' y2='251.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='640.0,262.0 634.5,251.0 645.5,251.0' fill='#000'/>
+<text x='652.0' y='222.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'> </tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1040.0' y1='172.0' x2='1040.0' y2='251.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='1040.0,262.0 1034.5,251.0 1045.5,251.0' fill='#000'/>
+<text x='1052.0' y='222.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>β</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'> </tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1170.0' y1='136.0' x2='1299.0' y2='136.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='1310.0,136.0 1299.0,141.5 1299.0,130.5' fill='#000'/>
+<text x='1275.0' y='124.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>p</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1170.0' y1='298.0' x2='1299.0' y2='298.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='1310.0,298.0 1299.0,303.5 1299.0,292.5' fill='#000'/>
+<text x='1240.0' y='323.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>p</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1240.0' y1='298.0' x2='1240.0' y2='136.0' stroke='#000' stroke-width='1.6'/>
+<text x='1252.0' y='222.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>α p</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1570.0' y1='136.0' x2='1659.0' y2='136.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='1670.0,136.0 1659.0,141.5 1659.0,130.5' fill='#000'/>
+<text x='1620.0' y='124.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1570.0' y1='298.0' x2='1659.0' y2='298.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='1670.0,298.0 1659.0,303.5 1659.0,292.5' fill='#000'/>
+<text x='1620.0' y='286.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>c</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'></tspan></text>
+<rect x='110' y='498' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='240.0' y='532.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>C</tspan></text>
+<text x='240.0' y='556.0' font-size='16' text-anchor='middle' fill='#333'><tspan>cytokine</tspan></text>
+<rect x='110' y='670' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='240.0' y='704.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>H</tspan></text>
+<text x='240.0' y='728.0' font-size='16' text-anchor='middle' fill='#333'><tspan>pulse rate</tspan></text>
+<rect x='510' y='498' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='640.0' y='532.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>B</tspan></text>
+<text x='640.0' y='556.0' font-size='16' text-anchor='middle' fill='#333'><tspan>antibody-secreting pool</tspan></text>
+<rect x='910' y='498' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='1040.0' y='532.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>A</tspan></text>
+<text x='1040.0' y='556.0' font-size='16' text-anchor='middle' fill='#333'><tspan>neutralising antibody</tspan></text>
+<rect x='1310' y='498' width='260' height='72' fill='white' stroke='#000' stroke-width='1.6'/>
+<text x='1440.0' y='532.0' font-size='19' text-anchor='middle' fill='#111'><tspan font-style='italic'>Z</tspan></text>
+<text x='1440.0' y='556.0' font-size='16' text-anchor='middle' fill='#333'><tspan>cytotoxic T-cell pool</tspan></text>
+<line x1='190.0' y1='368.0' x2='190.0' y2='487.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='190.0,498.0 184.5,487.0 195.5,487.0' fill='#000'/>
+<text x='178.0' y='438.0' font-size='16' text-anchor='end' fill='#111'><tspan font-style='italic'>ρ</tspan><tspan font-size='75%' dy='3.52'>I</tspan><tspan dy='-3.52'>, </tspan><tspan font-style='italic'>ρ</tspan><tspan font-size='75%' dy='3.52'>V</tspan><tspan dy='-3.52'>, </tspan><tspan font-style='italic'>ρ</tspan><tspan font-size='75%' dy='3.52'>T</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='290.0' y1='498.0' x2='290.0' y2='379.0' stroke='#000' stroke-width='1.6' stroke-dasharray='7 5'/>
+<polygon points='290.0,368.0 295.5,379.0 284.5,379.0' fill='#000'/>
+<text x='302.0' y='438.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>δ</tspan><tspan font-size='75%' dy='3.52'>N</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='640.0' y1='368.0' x2='640.0' y2='487.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='640.0,498.0 634.5,487.0 645.5,487.0' fill='#000'/>
+<text x='652.0' y='438.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>π</tspan><tspan font-size='75%' dy='3.52'>B</tspan><tspan dy='-3.52'> (</tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.52'>W</tspan><tspan dy='-3.52'>)</tspan></text>
+<line x1='990.0' y1='498.0' x2='990.0' y2='368.0' stroke='#000' stroke-width='1.6'/>
+<line x1='998.0' y1='368.0' x2='982.0' y2='368.0' stroke='#000' stroke-width='2.4'/>
+<text x='978.0' y='438.0' font-size='16' text-anchor='end' fill='#111'><tspan font-style='italic'>ε</tspan><tspan font-size='75%' dy='3.52'>Ab</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1090.0' y1='498.0' x2='1090.0' y2='368.0' stroke='#000' stroke-width='1.6'/>
+<line x1='1098.0' y1='368.0' x2='1082.0' y2='368.0' stroke='#000' stroke-width='2.4'/>
+<text x='1102.0' y='438.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>ε</tspan><tspan font-size='75%' dy='3.52'>Clr</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='1390.0' y1='368.0' x2='1390.0' y2='487.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='1390.0,498.0 1384.5,487.0 1395.5,487.0' fill='#000'/>
+<text x='1378.0' y='438.0' font-size='16' text-anchor='end' fill='#111'><tspan font-style='italic'>π</tspan><tspan font-size='75%' dy='3.52'>Z</tspan><tspan dy='-3.52'> (</tspan><tspan font-style='italic'>I</tspan><tspan>)</tspan></text>
+<line x1='1490.0' y1='498.0' x2='1490.0' y2='368.0' stroke='#000' stroke-width='1.6'/>
+<line x1='1498.0' y1='368.0' x2='1482.0' y2='368.0' stroke='#000' stroke-width='2.4'/>
+<text x='1502.0' y='438.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>μ</tspan><tspan font-size='75%' dy='3.52'>Z</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='770.0' y1='534.0' x2='899.0' y2='534.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='910.0,534.0 899.0,539.5 899.0,528.5' fill='#000'/>
+<text x='840.0' y='522.0' font-size='16' text-anchor='middle' fill='#111'><tspan font-style='italic'>p</tspan><tspan font-size='75%' dy='3.52'>A</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='210.0' y1='570.0' x2='210.0' y2='659.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='210.0,670.0 204.5,659.0 215.5,659.0' fill='#000'/>
+<text x='198.0' y='625.0' font-size='16' text-anchor='end' fill='#111'><tspan>Δ</tspan><tspan font-size='75%' dy='3.52'>H</tspan><tspan dy='-3.52'></tspan></text>
+<line x1='270.0' y1='670.0' x2='270.0' y2='581.0' stroke='#000' stroke-width='1.6' stroke-dasharray='7 5'/>
+<polygon points='270.0,570.0 275.5,581.0 264.5,581.0' fill='#000'/>
+<text x='282.0' y='625.0' font-size='16' text-anchor='start' fill='#111'><tspan font-style='italic'>m</tspan><tspan>(</tspan><tspan font-style='italic'>H</tspan><tspan>)</tspan></text>
+<text x='1040.0' y='602.0' font-size='16' text-anchor='middle' font-weight='bold' fill='#111'><tspan>Adaptive block (Section 11)</tspan></text>
+<text x='110.0' y='774.0' font-size='16' text-anchor='start' font-weight='bold' fill='#111'><tspan>Cytokine and pulse</tspan></text>
+<line x1='510.0' y1='694.0' x2='549.0' y2='694.0' stroke='#000' stroke-width='1.6'/>
+<polygon points='560.0,694.0 549.0,699.5 549.0,688.5' fill='#000'/>
+<text x='574.0' y='699.0' font-size='16' text-anchor='start' fill='#111'><tspan>conversion, production or drive</tspan></text>
+<line x1='910.0' y1='694.0' x2='960.0' y2='694.0' stroke='#000' stroke-width='1.6'/>
+<line x1='960.0' y1='702.0' x2='960.0' y2='686.0' stroke='#000' stroke-width='2.4'/>
+<text x='974.0' y='699.0' font-size='16' text-anchor='start' fill='#111'><tspan>inhibition (flat end)</tspan></text>
+<line x1='1210.0' y1='694.0' x2='1249.0' y2='694.0' stroke='#000' stroke-width='1.6' stroke-dasharray='7 5'/>
+<polygon points='1260.0,694.0 1249.0,699.5 1249.0,688.5' fill='#000'/>
+<text x='1274.0' y='699.0' font-size='16' text-anchor='start' fill='#111'><tspan>indirect effect (dashed)</tspan></text>
+</svg>

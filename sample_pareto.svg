@@ -1,0 +1,98 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='860' height='592' viewBox='0 0 860 592' font-family='Arial,Helvetica,sans-serif' xml:space='preserve'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='96' y='32' font-size='21' text-anchor='start' font-weight='bold' fill='#111'><tspan>TIP screening: peak WT viral load vs peak cytokine</tspan></text>
+<rect x='96' y='62' width='684' height='392' fill='#fafafa'/>
+<line x1='96' y1='62' x2='96' y2='454' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='96' y1='454' x2='96' y2='459' stroke='#444' stroke-width='1.2'/>
+<text x='96' y='476' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>4</tspan><tspan dy='4.94'></tspan></text>
+<line x1='267' y1='62' x2='267' y2='454' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='267' y1='454' x2='267' y2='459' stroke='#444' stroke-width='1.2'/>
+<text x='267' y='476' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>5</tspan><tspan dy='4.94'></tspan></text>
+<line x1='438' y1='62' x2='438' y2='454' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='438' y1='454' x2='438' y2='459' stroke='#444' stroke-width='1.2'/>
+<text x='438' y='476' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>6</tspan><tspan dy='4.94'></tspan></text>
+<line x1='609' y1='62' x2='609' y2='454' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='609' y1='454' x2='609' y2='459' stroke='#444' stroke-width='1.2'/>
+<text x='609' y='476' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>7</tspan><tspan dy='4.94'></tspan></text>
+<line x1='780' y1='62' x2='780' y2='454' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='780' y1='454' x2='780' y2='459' stroke='#444' stroke-width='1.2'/>
+<text x='780' y='476' font-size='13' text-anchor='middle' fill='#333'>10<tspan dy='-4.94' font-size='75%'>8</tspan><tspan dy='4.94'></tspan></text>
+<line x1='96' y1='454' x2='780' y2='454' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='454' x2='96' y2='454' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='458.5' font-size='13' text-anchor='end' fill='#333'><tspan>0</tspan></text>
+<line x1='96' y1='388.667' x2='780' y2='388.667' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='388.667' x2='96' y2='388.667' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='393.167' font-size='13' text-anchor='end' fill='#333'><tspan>100</tspan></text>
+<line x1='96' y1='323.333' x2='780' y2='323.333' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='323.333' x2='96' y2='323.333' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='327.833' font-size='13' text-anchor='end' fill='#333'><tspan>200</tspan></text>
+<line x1='96' y1='258' x2='780' y2='258' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='258' x2='96' y2='258' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='262.5' font-size='13' text-anchor='end' fill='#333'><tspan>300</tspan></text>
+<line x1='96' y1='192.667' x2='780' y2='192.667' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='192.667' x2='96' y2='192.667' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='197.167' font-size='13' text-anchor='end' fill='#333'><tspan>400</tspan></text>
+<line x1='96' y1='127.333' x2='780' y2='127.333' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='127.333' x2='96' y2='127.333' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='131.833' font-size='13' text-anchor='end' fill='#333'><tspan>500</tspan></text>
+<line x1='96' y1='62' x2='780' y2='62' stroke='#e4e4e4' stroke-width='1'/>
+<line x1='91' y1='62' x2='96' y2='62' stroke='#444' stroke-width='1.2'/>
+<text x='87' y='66.5' font-size='13' text-anchor='end' fill='#333'><tspan>600</tspan></text>
+<line x1='96' y1='454' x2='780' y2='454' stroke='#222' stroke-width='1.6'/>
+<line x1='96' y1='62' x2='96' y2='454' stroke='#222' stroke-width='1.6'/>
+<text x='438' y='506' font-size='15' text-anchor='middle' fill='#333'><tspan>peak </tspan><tspan font-style='italic'>V</tspan><tspan font-size='75%' dy='3.3'>W</tspan><tspan dy='-3.3'> (copies/mL, log scale)</tspan></text>
+<text x='22' y='258' font-size='15' text-anchor='middle' fill='#333' transform='rotate(-90 22 258)'><tspan>peak cytokine </tspan><tspan font-style='italic'>C</tspan><tspan> (pg/mL)</tspan></text>
+<line x1='96' y1='127.333' x2='780' y2='127.333' stroke='#A32D2D' stroke-width='1.5' stroke-dasharray='5 4'/>
+<text x='788' y='131.833' font-size='13' text-anchor='start' fill='#A32D2D'><tspan font-style='italic'>C</tspan><tspan font-size='75%' dy='2.86'>crit</tspan><tspan dy='-2.86'></tspan></text>
+<circle cx='604.701' cy='324.212' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='463.894' cy='407.836' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='482.912' cy='390.732' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.093' cy='318.774' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='627.694' cy='318.902' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='516.06' cy='371.492' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.093' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='507.2' cy='374.56' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='327.469' cy='440.235' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='210.43' cy='448.385' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='499.068' cy='392.41' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='578.171' cy='333.793' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.093' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='508.898' cy='387.317' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='475.748' cy='404.991' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='512.158' cy='385.435' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='602.866' cy='327.657' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='617.31' cy='322.589' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='409' cy='428.066' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='372.79' cy='435.644' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='577.685' cy='333.835' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.093' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='452.177' cy='410.813' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.952' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='629.094' cy='318.773' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='475.926' cy='403.601' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='420.036' cy='423.07' r='3' fill='#85B7EB' fill-opacity='0.65'/>
+<circle cx='199.38' cy='448.772' r='4.8' fill='#0C447C' stroke='white' stroke-width='1.2'/>
+<circle cx='252.045' cy='449.059' r='4.8' fill='#0C447C' stroke='white' stroke-width='1.2'/>
+<circle cx='308.117' cy='445.185' r='4.8' fill='#0C447C' stroke='white' stroke-width='1.2'/>
+<circle cx='461.232' cy='414.703' r='4.8' fill='#0C447C' stroke='white' stroke-width='1.2'/>
+<path d='M622.094 311.773L636.094 325.773M622.094 325.773L636.094 311.773' stroke='#A32D2D' stroke-width='2.8'/>
+<circle cx='102' cy='534' r='4.8' fill='#0C447C'/>
+<text x='114' y='539' font-size='14' text-anchor='start' fill='#222'><tspan>Pareto front</tspan></text>
+<circle cx='252.8' cy='534' r='4.8' fill='#1D9E75'/>
+<text x='264.8' y='539' font-size='14' text-anchor='start' fill='#222'><tspan>feasible + extinction</tspan></text>
+<circle cx='479.2' cy='534' r='4.8' fill='#85B7EB'/>
+<text x='491.2' y='539' font-size='14' text-anchor='start' fill='#222'><tspan>feasible</tspan></text>
+<circle cx='102' cy='560' r='4.8' fill='#B4B2A9'/>
+<text x='114' y='565' font-size='14' text-anchor='start' fill='#222'><tspan>violates a safety bound</tspan></text>
+<circle cx='345.2' cy='560' r='4.8' fill='#A32D2D'/>
+<text x='357.2' y='565' font-size='14' text-anchor='start' fill='#222'><tspan>untreated (x)</tspan></text>
+</svg>

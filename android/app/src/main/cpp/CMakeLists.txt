@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.22)
+project(ebov LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# The engine is built unchanged from the repository root; EBOV_NO_MAIN removes main() and exposes the C API.
+set(ENGINE ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../code_annotated.cpp)
+add_library(ebov SHARED jni.cpp ${ENGINE})
+target_compile_definitions(ebov PRIVATE EBOV_NO_MAIN)
+target_compile_options(ebov PRIVATE -O2)
+target_link_libraries(ebov log)

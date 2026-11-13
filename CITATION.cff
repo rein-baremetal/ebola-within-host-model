@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or manuscript, please cite it as below."
+title: "Persistence-limited interference of therapeutic interfering particles in Ebola virus (RPT-EBOV)"
+type: software
+authors:
+  - family-names: Nyachio
+    given-names: Reinford
+    affiliation: "Maasai Mara University, Kenya"
+date-released: 2026-11-13
+license: MIT
+version: "1.0.0"
+keywords:
+  - Orthoebolavirus zairense
+  - Ebola virus
+  - therapeutic interfering particles
+  - within-host modelling
+  - stochastic extinction
+  - C++20
+# After posting the preprint, add:
+# preferred-citation: {type: article, title: "...", doi: "10.1101/...", year: 2026}

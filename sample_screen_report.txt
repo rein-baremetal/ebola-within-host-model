@@ -1,0 +1,57 @@
+# TIP-profile screening report
+samples = 40, valid = 40, feasible (C<=C_crit, H<=H_crit) = 40, feasible + WT extinction = 0, Pareto front size = 4
+seed = 12345, t_end = 30 d, V_ext = 0.0002
+R0_WT = 8.73
+untreated reference: peak_V_W = 1.311e+07, peak_C = 207, peak_H = 110.5, extinct = no, J = 176.3
+
+class: A = feasible + extinction (high priority), B = feasible, C = violates safety bound
+== Top 10 profiles (sampled) ==
+rank class beta_T alpha p_T c_T tip_dose tip_time peakV peakC peakH t_ext U_AUC_VT F
+1 (32) B 1.477e-06 0.05348 2100 1.472 4.275e+05 0.6335 1.74e+05 13.49 70.89 none 5.231e+07 187.3
+2 (34) B 5.856e-07 0.06925 1538 12.46 3.017e+07 2.335 1.367e+06 60.15 83.27 none 4.088e+07 228.3
+3 (38) B 1.778e-06 0.06293 893.9 4.02 3.936e+08 1.257 4.023e+04 8.002 70.32 none 1.087e+08 262.9
+4 (31) B 8.254e-07 0.3447 1678 14.93 2.391e+05 2.489 9.438e+06 198.7 109.9 none 5.966e+07 267.7
+5 (36) B 3.486e-07 0.2651 1063 10.53 1.046e+08 1.556 1.417e+06 70.66 86.65 none 6.678e+07 278.1
+6 (37) B 1.639e-06 0.2397 1253 7.766 1.878e+06 2.207 1.831e+06 96.84 94.19 none 8.128e+07 278.3
+7 (27) B 1.071e-06 0.2002 514.6 0.108 8.317e+05 3.974 1.311e+07 207 110.5 none 1.385e+08 278.4
+8 (39) B 3.063e-07 0.1488 2643 7.022 3.146e+06 3.103 1.286e+07 206.8 110.5 none 1.056e+08 297.8
+9 (23) B 3.806e-07 0.2323 1007 3.624 3.254e+06 1.756 2.861e+06 126.3 100.7 none 1.429e+08 343.3
+10 (5) B 3.232e-07 0.1633 992.3 5.989 6.179e+08 4.61 1.311e+07 207 110.5 none 1.412e+08 343.5
+
+== Nelder-Mead refinement of the top 3 ==
+rank class beta_T alpha p_T c_T tip_dose tip_time peakV peakC peakH t_ext U_AUC_VT F
+from 32 (141 evals) (32) A 1.934e-06 0.05143 2347 0.1055 2.542e+06 0 100 5.002 70.12 19.86 2.323e+07 27.12
+  F before = 187.3
+from 38 (139 evals) (38) A 1.983e-06 0.05065 2987 0.1404 3.596e+06 0.024 100 5.001 70.12 17.4 2.534e+07 28.46
+  F before = 262.9
+from 34 (131 evals) (34) B 1.95e-06 0.05037 2897 0.1 5.139e+05 0 1651 5.125 70.13 none 2.311e+07 55.56
+  F before = 228.3
+
+== Pareto front (peak V_W, peak C, exposure), sorted by peak V_W; first 25 of 4 ==
+rank class beta_T alpha p_T c_T tip_dose tip_time peakV peakC peakH t_ext U_AUC_VT F
+1 (38) B 1.778e-06 0.06293 893.9 4.02 3.936e+08 1.257 4.023e+04 8.002 70.32 none 1.087e+08 262.9
+2 (10) B 5.418e-07 0.1076 1241 0.4254 1.462e+08 1.736 8.176e+04 7.563 70.28 none 4.803e+08 635.3
+3 (32) B 1.477e-06 0.05348 2100 1.472 4.275e+05 0.6335 1.74e+05 13.49 70.89 none 5.231e+07 187.3
+4 (34) B 5.856e-07 0.06925 1538 12.46 3.017e+07 2.335 1.367e+06 60.15 83.27 none 4.088e+07 228.3
+
+== PRCC (|value| near 1 = strong influence on the output) ==
+parameter  log10_peakV  peakC  exposure_U
+beta_T  -0.01922  -0.1465  -0.1465
+alpha  0.4372  0.2807  0.6178
+p_T  0.2844  0.4026  0.512
+c_T  -0.06005  -0.01727  -0.8716
+tip_dose  -0.00838  -0.1147  0.5229
+tip_time  0.8584  0.832  -0.4205
+
+== Weight sensitivity (each weight scaled by x2 and 1/2) ==
+  w1 (virus) x 2 : top-1 unchanged, baseline winner rank 1
+  w1 (virus) / 2 : top-1 unchanged, baseline winner rank 1
+  w2 (cytokine) x 2 : top-1 unchanged, baseline winner rank 1
+  w2 (cytokine) / 2 : top-1 unchanged, baseline winner rank 1
+  w3 (pulse) x 2 : top-1 unchanged, baseline winner rank 1
+  w3 (pulse) / 2 : top-1 unchanged, baseline winner rank 1
+  w4 (exposure) x 2 : top-1 unchanged, baseline winner rank 1
+  w4 (exposure) / 2 : top-1 unchanged, baseline winner rank 1
+  baseline winner stays top-1 in 8 of 8 scenarios (worst rank 1)
+
+Note: ranking is conditional on the illustrative parameter set; all outputs are simulated, not predictions.

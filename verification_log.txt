@@ -1,0 +1,127 @@
+== ./engine --selftest input.txt
+RK4 order estimate: 4.037  (e1=2.366e-10, e2=1.441e-11)  PASS
+== ./engine input.txt sample_trajectory.txt errors.txt
+layout check [trajectory]: 0 problem(s) in 76 text items
+R0=8.73  peakV=1.87e+06 (t=2.84)  peakC=96.9  peakH=94.2  extinct=no  J=232.9  -> sample_trajectory.txt, sample_trajectory.svg
+== ./engine --screen (40-sample short run, prefix sample)
+layout check [pareto]: 0 problem(s) in 21 text items
+layout check [trajectory]: 0 problem(s) in 76 text items
+screened 40 profiles on 2 thread(s) in 1.8 s: valid 40, feasible 40, feasible+extinct 0, Pareto 4
+best sampled F = 187.3  (class B)  | refined best F = 27.12
+wrote sample_report.txt, sample_samples.csv, sample_pareto.svg, sample_best.svg
+== ./engine --screen screen.txt (2000 profiles)
+layout check [pareto]: 0 problem(s) in 23 text items
+layout check [trajectory]: 0 problem(s) in 76 text items
+screened 2000 profiles on 2 thread(s) in 4.2 s: valid 2000, feasible 2000, feasible+extinct 33, Pareto 11
+best sampled F = 211  (class A)  | refined best F = 25.74
+wrote screen_report.txt, screen_samples.csv, screen_pareto.svg, screen_best.svg
+== make_figures.py
+layout check [fig05]: 0 problem(s) in 42 text items, 0 connectors, 0 boxes
+fig05: RK4 errors ['3.848e-06', '1.909e-07', '1.059e-08', '6.227e-10', '3.772e-11'] local orders ['4.333', '4.172', '4.088', '4.045']; equilibrium drift without perturbation 0.00e+00
+layout check [fig07]: 0 problem(s) in 56 text items, 26 connectors, 13 boxes
+layout check [fig13]: 0 problem(s) in 75 text items, 0 connectors, 0 boxes
+fig13 naive, untreated         peakV=1.3e+07 peakC=206 extinct=0 tExt=-1 A(30)=44.9
+fig13 naive + TIP              peakV=3.25e+04 peakC=7.04 extinct=0 tExt=-1 A(30)=1.8
+fig13 vaccinated, untreated    peakV=3.5e+03 peakC=5.07 extinct=0 tExt=-1 A(30)=64.8
+fig13 vaccinated + TIP         peakV=100 peakC=5 extinct=1 tExt=5.32 A(30)=47.5
+layout check [fig15]: 0 problem(s) in 38 text items, 0 connectors, 0 boxes
+fig15 untreated                    peakV(A=0)=1.3e+07 peakV(A=60)=178 peakC(A=0)=206 peakC(A=60)=5
+fig15 TIP, *c*_{T} = 0.5 d^{−1}    peakV(A=0)=3.25e+04 peakV(A=60)=100 peakC(A=0)=7.04 peakC(A=60)=5
+fig15 TIP, *c*_{T} = 0.1 d^{−1}    peakV(A=0)=100 peakV(A=60)=100 peakC(A=0)=5 peakC(A=60)=5
+make_figures: all layout checks passed
+sample_trajectory.svg: 1210 plotted points compared with sample_trajectory.txt: worst deviation 2.42e-05 (fraction of axis range; log axes in decades)
+screen_pareto.svg: 2000 circles vs 2000 samples in screen_samples.csv: match
+sample_pareto.svg: 40 circles vs 40 samples in sample_samples.csv: match
+equations_svg.zip sha256 e70a9c33086ed088 (identical to the source archive)
+
+== make_figures_analysis.py (Figs 2,4,6,8,9,10,11,12,14,16,17)
+fig02 strongest (dose 10^{9}, day 1)   primed   c_T* = 0.456
+fig02 strongest (dose 10^{9}, day 1)   abortive c_T* = 1.151
+fig02 screened best                    primed   c_T* = 0.256
+fig02 screened best                    abortive c_T* = 0.696
+fig02 weaker (dose 10^{8}, day 1)      primed   c_T*: no extinction down to 0.003
+fig02 weaker (dose 10^{8}, day 1)      abortive c_T* = 0.525
+layout check [fig02]: 0 problem(s) in 23 text items, 0 connectors, 0 boxes
+fig04 screened best from screen_report.txt: {'beta_T': 8.129e-07, 'alpha': 0.05018, 'p_T': 2877.0, 'c_T': 0.1823, 'tip_dose': 37940000.0, 'tip_time': 0.2602} | analysis_scripts BEST: {'beta_T': 8.129e-07, 'alpha': 0.05018, 'p_T': 2877, 'tip_dose': 37940000.0, 'tip_time': 0.2602}
+fig04 untreated              peakV=1.31e+07 peakC=207 extinct=0
+fig04 weak profile           peakV=4.72e+05 peakC=30.6 extinct=0
+fig04 best screened profile  peakV=100 peakC=5 extinct=1
+layout check [fig04]: 0 problem(s) in 48 text items, 0 connectors, 0 boxes
+fig06: max |simulated - eigenvalue| growth rate = 4.88e-05 d^-1 (document: 8e-5); thresholds 1-1/R0 = 0.88545, R0-1 = 7.7302 (document 0.88545, 7.7302)
+layout check [fig06]: 0 problem(s) in 44 text items, 0 connectors, 0 boxes
+fig08 primed: 679 of 1728 combinations extinct; largest extinct c_T = 0.499 d^-1
+   dose 1e+05: largest extinct c_T = 0.209
+   dose 1e+09: largest extinct c_T = 0.499
+fig08 abortive: 898 of 1728 combinations extinct; largest extinct c_T = 1.19 d^-1
+   dose 1e+05: largest extinct c_T = 0.499
+   dose 1e+09: largest extinct c_T = 1.19
+layout check [fig08]: 0 problem(s) in 30 text items, 0 connectors, 0 boxes
+fig09 c_T=0.05  extinct=1 tExt=13.3 min V_W after dose=0.000214
+fig09 c_T=0.1   extinct=1 tExt=13.3 min V_W after dose=0.000218
+fig09 c_T=0.3   extinct=0 tExt=-1 min V_W after dose=0.00104
+fig09 c_T=0.5   extinct=0 tExt=-1 min V_W after dose=0.0477
+fig09 c_T=1     extinct=0 tExt=-1 min V_W after dose=0.844
+fig09 c_T=2     extinct=0 tExt=-1 min V_W after dose=3.55
+fig09 c_T=5     extinct=0 tExt=-1 min V_W after dose=9.15
+layout check [fig09]: 0 problem(s) in 56 text items, 0 connectors, 0 boxes
+fig10 alpha primed [(np.float64(0.02), 0.507), (np.float64(0.045), 0.29), (np.float64(0.07), 0.149)]
+fig10 alpha abortive [(np.float64(0.02), 0.769), (np.float64(0.045), 0.705), (np.float64(0.07), 0.672), (np.float64(0.095), 0.649), (np.float64(0.12), 0.632)]
+layout check [fig10]: 0 problem(s) in 58 text items, 0 connectors, 0 boxes
+fig11 δW = δCo       -25% -> -49%   +25% -> +53%
+fig11 pW             -25% -> +48%   +25% -> -33%
+fig11 λ              -25% -> +48%   +25% -> -33%
+fig11 βW             -25% -> +48%   +25% -> -33%
+fig11 cW             -25% -> -44%   +25% -> +41%
+fig11 baseline c_T* = 0.2560; largest |c_T* after +-25%| = 0.393 (document: none above 0.4)
+layout check [fig11]: 0 problem(s) in 26 text items, 0 connectors, 0 boxes
+fig12 c_T*: 0.256 at rho_T=0 -> 0.373 at 3e-3 (document 0.256 -> 0.373); peak C 5 -> 1.69e+04 (document 5 -> 1.7e4)
+layout check [fig12]: 0 problem(s) in 28 text items, 0 connectors, 0 boxes
+fig14 ξT = 0 (TIP invisible)             A=0: 0.264, A=12.5: 0.862, A=25: 1.96, A=50: 4.79, A=75: 9.73  | no extinction at 2 of 41 titres
+fig14 ξT = 0.5                           A=0: 0.263, A=12.5: 0.674, A=25: 1.44, A=50: 3.38, A=75: 6.75  | no extinction at 0 of 41 titres
+fig14 ξT = 1, multiplicative             A=0: 0.261, A=12.5: 0.554, A=25: 1.14, A=50: 2.61, A=75: 5.17  | no extinction at 0 of 41 titres
+fig14 ξT = 1, additive (worst case)      A=0: 0.169, A=75: 0.908  | no extinction at 28 of 41 titres
+fig14 A_crit (R_eff = 1) = 68.6 (document 68.6); A for 60-day extinction without TIP = 94.0 (document 94)
+layout check [fig14]: 0 problem(s) in 43 text items, 0 connectors, 0 boxes
+fig16b naive host (Reff = 8.73)                      q=0.9695  P(10)=0.267  P(100)=0.955  P(1000)=1.000
+fig16b vaccinated host (A = 50 µg/mL, Reff = 1.19)   q=0.9992  P(10)=0.008  P(100)=0.075  P(1000)=0.540
+fig16b Reff = 3                                      q=0.9919  P(10)=0.078  P(100)=0.556  P(1000)=1.000
+fig16b Reff = 0.9                                    q=1.0000  P(10)=0.000  P(100)=0.000  P(1000)=0.000
+fig16a p=500 R=8.73  theory 0.0299  MC 0.0284 +- 0.0015 (12000 lineages)
+fig16a p=500 R=20    theory 0.0704  MC 0.0727 +- 0.0034 (6000 lineages)
+fig16a p=50 R=8.73  theory 0.2292  MC 0.2252 +- 0.0054 (6000 lineages)
+fig16a p=50 R=4     theory 0.1034  MC 0.1063 +- 0.0040 (6000 lineages)
+fig16a p=50 R=2     theory 0.0370  MC 0.0359 +- 0.0017 (12000 lineages)
+fig16a p=20 R=2     theory 0.0833  MC 0.0818 +- 0.0025 (12000 lineages)
+fig16a p=20 R=1.5   theory 0.0435  MC 0.0434 +- 0.0019 (12000 lineages)
+fig16a p=20 R=1.2   theory 0.0179  MC 0.0188 +- 0.0010 (20000 lineages)
+layout check [fig16]: 0 problem(s) in 35 text items, 0 connectors, 0 boxes
+fig17 c_T=0.1   extinct 200/200 (P=1.000) escaped   0 tail start day 7.3, 299 copies; deterministic extinct=1
+fig17 c_T=0.2   extinct 200/200 (P=1.000) escaped   0 tail start day 7.3, 298 copies; deterministic extinct=1
+fig17 c_T=0.25  extinct 199/200 (P=0.995) escaped   1 tail start day 7.3, 298 copies; deterministic extinct=1
+fig17 c_T=0.26  extinct 198/200 (P=0.990) escaped   2 tail start day 7.3, 299 copies; deterministic extinct=0
+fig17 c_T=0.28  extinct 193/200 (P=0.965) escaped   7 tail start day 7.3, 298 copies; deterministic extinct=0
+fig17 c_T=0.3   extinct 188/200 (P=0.940) escaped  12 tail start day 7.3, 297 copies; deterministic extinct=0
+fig17 c_T=0.35  extinct 163/200 (P=0.815) escaped  37 tail start day 7.4, 299 copies; deterministic extinct=0
+fig17 c_T=0.4   extinct 105/200 (P=0.525) escaped  95 tail start day 7.5, 299 copies; deterministic extinct=0
+fig17 c_T=0.5   extinct  10/200 (P=0.050) escaped 190 tail start day 7.5, 448 copies; deterministic extinct=0
+fig17 c_T=0.7   extinct   0/200 (P=0.000) escaped 200 tail start day 5.4, 2325 copies; deterministic extinct=0
+fig17 c_T=1.0   extinct   0/200 (P=0.000) escaped 200 tail start day 3.9, 8000 copies; deterministic extinct=0
+fig17 deterministic threshold c_T* = 0.2560 d^-1
+layout check [fig17]: 0 problem(s) in 15 text items, 0 connectors, 0 boxes
+make_figures_analysis: all layout checks passed
+
+== additions for funding alignment (November 2026) ==
+== ./check_determinism.sh
+1 thread : 8408cc0813e89409b7654246d92e986a9aad2368c4b904a3e72760343008c13c
+4 threads: 8408cc0813e89409b7654246d92e986a9aad2368c4b904a3e72760343008c13c
+determinism: PASS (identical SHA-256)
+== ./check_sanitisers.sh
+RK4 order estimate: 4.037  (e1=2.366e-10, e2=1.441e-11)  PASS
+sanitisers: PASS (no ASan/UBSan reports on self-test and a trajectory run)
+== python3 verify_threshold.py
+R0 = 8.730158730
+entry blocking : bisection 0.885454545   analytic 1-1/R0 = 0.885454545   |diff| = 2.22e-16
+clearance gain : bisection 7.730158730   analytic R0-1   = 7.730158730   |diff| = 3.55e-15
+threshold match to seven significant digits: PASS
+== python3 claims_check.py
+claims check: PASS (no banned phrases; eponym limit respected; required elements present)
