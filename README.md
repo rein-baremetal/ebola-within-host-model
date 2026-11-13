@@ -1,6 +1,6 @@
-# RPT-EBOV — Persistence-Limited Interference of Therapeutic Interfering Particles in Ebola Virus
+# RPT-EBOV  Persistence Limited Interference of Therapeutic Interfering Particles in Ebola Virus
 
-**An offline, open-source, reproducible decision tool that ranks candidate Ebola therapeutic interfering particles (TIPs) before they consume scarce BSL-4 time, and a pre-registered test that will say clearly whether the underlying theory survives contact with data.**
+**An offline, open source, reproducible decision tool that ranks candidate Ebola therapeutic interfering particles (TIPs) before they consume scarce BSL-4 time, and a pre-registered test that will say clearly whether the underlying theory survives contact with data.**
 
 Reinford Nyachio, Maasai Mara University, Kenya · November 2026
 
@@ -14,7 +14,7 @@ Reinford Nyachio, Maasai Mara University, Kenya · November 2026
 
 | | |
 |---|---|
-| **Preprint** | bioRxiv — *link and DOI to be added after posting* |
+| **Preprint** | bioRxiv  *link and DOI to be added after posting* |
 | **Manuscript** | [`Rein_Persistence_Theory_EBOV_Nyachio_Final.docx`](Rein_Persistence_Theory_EBOV_Nyachio_Final.docx) (Parts I and II, 15 sections, Appendices A–E) |
 | **Code and data** | This repository: engine, scripts, parameter files, every plotted number, verification log |
 | **Pre-registration** | Lock list and falsifiers in the manuscript (Table 3a); OSF registration planned before any calibrated run |
@@ -29,8 +29,8 @@ The key quantity is the **persistence threshold c<sub>T</sub>\***: the free-TIP 
 
 The work has two parts.
 
-- **Part I** — theory, a ten-state model (target cells, WT-infected, co-infected and TIP-primed cells, free WT and TIP, cytokine, autonomic pulse), a zero-dependency C++20 engine (RK4 integrator), a screening module that ranks 2000 TIP profiles, and an Android app that runs offline.
-- **Part II** — mechanism and robustness (threshold mapped over dose and clearance, local sensitivity, cytokine safety coupling), an adaptive-immunity and vaccination extension, a stochastic analysis of establishment and extinction, and a specification for pan-filovirus, tropism and compartment extensions.
+- **Part I**  theory, a ten-state model (target cells, WT-infected, co-infected and TIP-primed cells, free WT and TIP, cytokine, autonomic pulse), a zero-dependency C++20 engine (RK4 integrator), a screening module that ranks 2000 TIP profiles, and an Android app that runs offline.
+- **Part II**  mechanism and robustness (threshold mapped over dose and clearance, local sensitivity, cytokine safety coupling), an adaptive immunity and vaccination extension, a stochastic analysis of establishment and extinction, and a specification for pan-filovirus, tropism and compartment extensions.
 
 ## Headline results
 
@@ -54,7 +54,7 @@ All numbers are produced by this repository (`verification_log.txt`, `figure_dat
 | Stochastic tail: extinction probability at c<sub>T</sub> = 0.25 / 0.40 / 0.50 d⁻¹ | 0.995 / 0.525 / 0.05 (the deterministic threshold is conservative) |
 | RK4 convergence order (self-test) | 4.037 |
 
-**What the work does not show:** no parameter is calibrated; no in vivo TIP data exist; the TIP-versus-antibody interaction is an assumption in two alternative forms; the multi-species and multi-compartment structure is a specification, not a result. The cytokine safety constraint did not bind in any tested profile, so safety rankings are currently uninformative.
+**What the work does not show:** no parameter is calibrated; no in vivo TIP data exist; the TIP versus antibody interaction is an assumption in two alternative forms; the multi-species and multi-compartment structure is a specification, not a result. The cytokine safety constraint did not bind in any tested profile, so safety rankings are currently uninformative.
 
 <table>
 <tr>
