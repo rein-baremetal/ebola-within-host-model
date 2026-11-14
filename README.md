@@ -14,7 +14,7 @@ Reinford Nyachio, Maasai Mara University, Kenya · November 2026
 
 | | |
 |---|---|
-| **Preprint** | bioRxiv  *link and DOI to be added after posting* |
+| **ORCIDID** | 0009-0001-2401-2431 |
 | **Manuscript** | [`Rein_Persistence_Theory_EBOV_Nyachio_Final.docx`](Rein_Persistence_Theory_EBOV_Nyachio_Final.docx) (Parts I and II, 15 sections, Appendices A–E) |
 | **Code and data** | This repository: engine, scripts, parameter files, every plotted number, verification log |
 | **Pre-registration** | Lock list and falsifiers in the manuscript (Table 3a); OSF registration planned before any calibrated run |
