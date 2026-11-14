@@ -113,7 +113,7 @@ Not yet measured: parallel scaling and a large fuzz campaign.
 Requirements: a C++20 compiler (g++ 11+); for figures, Python 3.10+ with the packages in `requirements.txt`, `rsvg-convert` (package `librsvg2-bin`) and the DejaVu fonts.
 
 ```bash
-git clone https://github.com/<your-username>/RPT-EBOV.git && cd RPT-EBOV
+git clone https://github.com/rein-baremetal/ebola-within-host-model.git && cd RPT-EBOV
 bash run_all.sh       # builds, tests, regenerates all figures, checks them, rebuilds the .docx (~2-8 min)
 ```
 
